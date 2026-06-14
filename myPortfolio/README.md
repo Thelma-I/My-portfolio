@@ -1,16 +1,40 @@
-# project2
+# Ilechukwu Thelma — Software Developer Portfolio
 
-A new Flutter project.
+A modern, animated, fully responsive portfolio website built with Flutter.
 
-## Getting Started
+##  Live Site
+[View Portfolio](https://thelma-i.github.io/My-portfolio)
 
-This project is a starting point for a Flutter application.
+##  Features
+- Light & Dark mode toggle
+- Smooth scroll animations
+- Responsive design (mobile, tablet, desktop)
+- Working contact form (EmailJS)
+- CV download
+- Portfolio project showcase
 
-A few resources to get you started if this is your first Flutter project:
+##  Built With
+- Flutter
+- EmailJS (contact form)
+- GitHub Pages (hosting)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Sections
+- Hero — introduction and bio
+- Works — portfolio projects
+- Stages — development process
+- How Can I Help — skills and passions
+- Contact — working contact form
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Locally
+
+```bash
+flutter pub get
+flutter run -d edge
+```
+
+##  Contact
+- GitHub: [Thelma-I](https://github.com/Thelma-I)
+- Email: ilechukwuthelma92@gmail.com
+
+## License
+MIT License — feel free to use as inspiration!

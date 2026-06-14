@@ -334,6 +334,13 @@ class _DownloadBtn extends StatefulWidget {
 class _DownloadBtnState extends State<_DownloadBtn> {
   bool _hovered = false;
 
+  void _downloadCV() async {
+    final uri = Uri.parse('https://github.com/Thelma-I/My-portfolio/blob/e1f2f8b507fa9c0633958432a62ff77f98de7c30/MY_CV.pdf');
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, webOnlyWindowName: '_blank');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return MouseRegion(
